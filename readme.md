@@ -4,8 +4,8 @@
 This project focuses on developing a deep learning model to accurately classify mosquito species from images. The primary goal is to leverage computer vision techniques to aid in entomological studies and vector control efforts, given that different mosquito species are vectors for different diseases. The project involved extensive data preprocessing, exploration of various image augmentation and class imbalance strategies, and experimentation with several state-of-the-art vision transformer models.
 
 The project was developed across two primary Jupyter notebooks, allowing for different experimental paths:
-1.  **Data Preprocessing & Initial Model Exploration Notebook:** Focused on initial model training with standard preprocessing. Contains all necessary data loading and cleaning steps.
-2.  **Advanced Preprocessing & Model Training Notebook:** This notebook specifically implements and tests more advanced image preprocessing techniques, such as CLAHE + Otsu cropping for mosquito isolation, alongside model training and evaluation. Also contains all necessary data loading and cleaning steps to run independently.
+1.  `Classification_without_segmentation.ipynb` Focused on initial model training with standard preprocessing. Contains all necessary data loading and cleaning steps.
+2.  `Classification_with_segmentation.ipynb` This notebook specifically implements and tests more advanced image preprocessing techniques, such as CLAHE + Otsu cropping for mosquito isolation, alongside model training and evaluation. Also contains all necessary data loading and cleaning steps to run independently.
 This structure allowed for comparative analysis of different approaches.
 
 ## 2. Dataset
