@@ -90,5 +90,5 @@ After iterative experimentation with the above models and techniques, the projec
 * Oversampling with `WeightedRandomSampler` also showed some benefits but didn't fully overcome the challenge for the most imbalanced classes when used with Swin-Base.
 * The CLAHE + Otsu cropping preprocessing was implemented and tested as a promising direction to help the model focus on mosquito-specific features. The impact of this technique was evaluated against models trained without this specific cropping.
 * The decision to focus on SwinV2 for the final model is based on its strong performance in vision tasks and the need for an architecture that can potentially learn subtle inter-species differences more effectively, especially when combined with robust data handling techniques.
-* The best test accuracy achieved during these experiments was approximately **84.9%** (with Swin-Base, prior to some oversampling attempts that didn't improve the rarest classes, and DINOv2 achieving similar overall results with different techniques). The core challenge remained the classification of the rarest Anopheles species.
+* The best test accuracy achieved during these experiments was approximately **87.07%** (with Swinv2). The core challenge remained the classification of the rarest Anopheles species.
 
